@@ -1,23 +1,77 @@
-body {
-    background-color: #f8f8f8;
+* {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+header {
+    height: 93px;
+    background-image: url(img/fon/MvJ2LNzm1ts.jpg);
+    background-repeat: no-repeat;
+    background-color: #121212;
+    padding-top: 30px;
+    padding-left: 200px;
+    padding-bottom: 20px;
+}
+
+.menu li {
+    display: inline;
+    outline: 1px solid black;
+    width: 200px;
+    height: 50px;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+.menu {
+    padding-top: 40px;
 }
 
 .menu li,
-.menu a {
+.menu li a {
     text-decoration-style: none;
-    color: dimgrey;
-    font-style: oblique;
-    font-size: 20px;
-    line-height: 30px;
+    color: beige;
+    font-family: cursive;
+    font-style: normal;
+    font-size: 25px;
+    line-height: 40px;
     text-decoration: none;
     list-style-type: none;
     text-transform: uppercase;
 }
 
+.menu li a:hover {
+    color: red;
+    font-style: oblique;
+}
+
+.menu li:hover {
+    color: red;
+    font-style: oblique;
+}
+
+.menu li a:active {
+    color: darkblue;
+}
+
+.menu li:active {
+    color: darkblue;
+}
+
+div {
+    background-image: url(img/fon/222222.jpg);
+    text-align: center;
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-bottom: 200px;
+}
+
 h1 {
-    color: darkslategrey;
-    font-style: normal;
-    font-size: 35px;
+    color: black;
+    font-family: arial;
+    font-size: 55px;
+    padding-bottom: 40px;
 }
 
 .product {
@@ -28,7 +82,9 @@ h1 {
 }
 
 .main {
-    font-size: 20px;
+    color: aliceblue;
+    font-size: 30px;
+    line-height: 40px
 }
 
 .heading {
@@ -94,4 +150,9 @@ input[type="reset"] {
     height: 35px;
     font-size: 16px;
     background-color: darkgrey;
+}
+
+footer {
+    color: aliceblue;
+    background-color: black;
 }
