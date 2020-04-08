@@ -4,40 +4,46 @@
 <head>
     <meta charset="UTF-8">
     <title>Контакты</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="stylesheet" href="style.css"> </head>
 
 <body>
-    <ul class="menu">
-        <li><a href="index.html">Главная</a></li>
-        <li><a href="catalog.html">Каталог</a></li>
-        <li>Контакты</li>
-    </ul>
-    <hr />
-    <h1>Напишите нам</h1>
-    <form action="#"> Ваше имя:
-        <input type="text" placeholder="Ваше имя" />
-        <br />
-        <br /> Ваш email:
-        <input type="email" placeholder="Ваш email" />
-        <br />
-        <br /> Тема сообщения:
-        <input type="text" />
-        <br />
-        <br /> Ваше сообщение:
-        <br />
-        <textarea name="message" id="#" cols="60" rows="5" value="Ваше сообщение"></textarea>
-        <br />
-        <input type="submit" value="Отправить сообщение" />
-        <input type="reset" value="Очистить поля" /> </form>
-    <h3 class="heading">Контакты</h3>
-    <ul>
-        <li>Наш номер: 89115123248&nbsp;&mdash; для связи достаточно сказать номер вслух и&nbsp;бросить в&nbsp;камин щепотку пороха</li>
-        <li>Адрес: Лондон, Чаринг-Кросс-роуд, д.48. Вход через паб &quot;Дырявый котёл&quot;</li>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.0632080586493!2d-0.13039137274969947!3d51.51205636044303!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604cd9993ed4b%3A0x80fb8efd0e8677dc!2zNDggQ2hhcmluZyBDcm9zcyBSZCwgQ292ZW50IEdhcmRlbiwgTG9uZG9uIFdDMkggMEJTLCDQktC10LvQuNC60L7QsdGA0LjRgtCw0L3QuNGP!5e0!3m2!1sru!2sru!4v1586026683469!5m2!1sru!2sru" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-        <li>Email&nbsp;&mdash; dturanin@mail.ru</li>
-    </ul>
-    <hr /> &copy;Все права защищены
+    <header>
+        <h1 class="name">Косой переулок</h1> </header>
+    <div class="navigation">
+        <ul class="menu">
+            <li><a href="index.html"><b>Главная</b></a></li>
+            <li><a href="catalog.html"><b>Каталог</b></a></li>
+            <li><b>Контакты</b></li>
+        </ul>
+    </div>
+    <div class="content">
+        <h2 class="heading">Напишите нам</h2>
+        <form action="#"> Ваше имя:
+            <input type="text" placeholder="Ваше имя" />
+            <br />
+            <br /> Ваш email:
+            <input type="email" placeholder="Ваш email" />
+            <br />
+            <br /> Тема сообщения:
+            <input type="text" />
+            <br />
+            <br /> Ваше сообщение:
+            <br />
+            <textarea name="message" id="#" cols="53" rows="5" value="Ваше сообщение"></textarea>
+            <br />
+            <input type="submit" value="Отправить сообщение" />
+            <input type="reset" value="Очистить поля" /> </form>
+        <div class="contacts">
+            <h2 class="heading">Контакты</h2>
+            <ul>
+                <li>Наш номер: 89115123248&nbsp;&mdash; для связи достаточно сказать номер вслух и&nbsp;бросить в&nbsp;камин щепотку пороха</li>
+                <li>Email&nbsp;&mdash; dturanin@mail.ru</li>
+                <li>Адрес: Лондон, Чаринг-Кросс-роуд, д.48. Вход через паб &quot;Дырявый котёл&quot;</li>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.0632080586493!2d-0.13039137274969947!3d51.51205636044303!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604cd9993ed4b%3A0x80fb8efd0e8677dc!2zNDggQ2hhcmluZyBDcm9zcyBSZCwgQ292ZW50IEdhcmRlbiwgTG9uZG9uIFdDMkggMEJTLCDQktC10LvQuNC60L7QsdGA0LjRgtCw0L3QuNGP!5e0!3m2!1sru!2sru!4v1586026683469!5m2!1sru!2sru" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </ul>
+        </div>
+    </div>
+    <footer> &copy;Все права защищены </footer>
 </body>
 
 </html>

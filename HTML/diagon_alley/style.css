@@ -5,154 +5,303 @@
     margin-left: 0px;
 }
 
+body {
+    background-color: floralwhite;
+}
+
 header {
-    height: 93px;
-    background-image: url(img/fon/MvJ2LNzm1ts.jpg);
+    background-image: url("img/owl1.png"), url("img/fon/alley3.jpg");
+    background-blend-mode: darken;
     background-repeat: no-repeat;
-    background-color: #121212;
+    background-attachment: fixed;
+    height: 160px;
     padding-top: 30px;
-    padding-left: 200px;
+    padding-left: 250px;
     padding-bottom: 20px;
+    padding-right: 20px;
 }
 
 .menu li {
     display: inline;
-    outline: 1px solid black;
-    width: 200px;
-    height: 50px;
     padding-left: 30px;
-    padding-top: 10px;
+    padding-right: 30px;
+    border: 1px solid #666;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #333;
 }
 
-.menu {
-    padding-top: 40px;
+.navigation {
+    padding-left: 40px;
 }
 
 .menu li,
 .menu li a {
     text-decoration-style: none;
-    color: beige;
-    font-family: cursive;
+    color: antiquewhite;
+    font-family: neumann;
     font-style: normal;
     font-size: 25px;
-    line-height: 40px;
+    line-height: 50px;
     text-decoration: none;
     list-style-type: none;
     text-transform: uppercase;
+    font-weight: 500;
 }
 
 .menu li a:hover {
-    color: red;
-    font-style: oblique;
+    color: brown;
 }
 
 .menu li:hover {
-    color: red;
-    font-style: oblique;
+    color: brown;
 }
 
 .menu li a:active {
-    color: darkblue;
+    color: red;
 }
 
 .menu li:active {
-    color: darkblue;
+    color: red;
 }
 
-div {
-    background-image: url(img/fon/222222.jpg);
-    text-align: center;
-    padding-top: 40px;
-    padding-left: 50px;
-    padding-bottom: 200px;
+.content {
+    padding-top: 10px;
+    padding-left: 110px;
+    padding-right: 110px;
+    padding-bottom: 300px;
 }
 
-h1 {
-    color: black;
-    font-family: arial;
-    font-size: 55px;
-    padding-bottom: 40px;
+.name {
+    font-family: neumann;
+    color: floralwhite;
+    font-size: 85px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .product {
-    color: #444;
-    font-family: serif;
-    font-style: oblique;
-    font-size: 40px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    color: black;
+    font-size: 45px;
+    font-family: Avara;
+    font-weight: 400;
 }
 
 .main {
-    color: aliceblue;
+    color: black;
     font-size: 30px;
-    line-height: 40px
+    line-height: 50px;
+    padding-top: 40px;
+    font-family: neumann;
+    font-style: oblique
 }
 
 .heading {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 40px;
     color: black;
-    font-size: 18px;
-    font-weight: 400;
-    background-color: #eaeaea;
+    font-family: neumann;
+    font-style: italic;
+    font-size: 38px;
+    font-weight: 700;
 }
 
 .description {
-    color: #707070;
-    font-size: 14 px;
+    color: black;
+    font-family: Avara;
+    font-size: 26px;
     font-style: italic;
-    line-height: 16px;
+    line-height: 36px;
 }
 
 .detailed {
     color: #484343;
-    font-size: 16px;
+    font-family: Avara;
+    font-style: italic;
+    font-size: 26px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 36px;
     text-align: left;
 }
 
 .link {
     color: black;
     text-decoration: none;
-    font-family: inherit;
-    font-size: 22px;
-}
-
-.characteristics {
-    color: #444;
-    font-style: normal;
-    font-family: sans-serif;
-    font-size: 15px;
-    line-height: 27px;
-    list-style-image: url(img/list.png);
+    font-family: neumann;
+    font-size: 25px;
+    padding-left: 30px;
 }
 
 img[class="picture"] {
-    outline: 3px solid grey;
+    outline: 2px solid grey;
+}
+
+img[class="picture"]:hover {
+    outline: none;
 }
 
 input[type="text"],
 input[type="email"] {
-    width: 170px;
-    height: 20px;
+    width: 180px;
+    height: 30px;
     font-family: monospace;
     text-align: center;
     background-color: beige;
 }
 
+input[type="text"],
 textarea {
+    font-family: neumann;
+    font-style: italic;
+    text-transform: capitalize;
+    color: brown;
+}
+
+input[type="email"] {
+    font-family: neumann;
+    font-style: italic;
+}
+
+input[type="email"]:focus {
+    color: antiquewhite;
+    background-color: #555;
+}
+
+textarea {
+    font-size: 15px;
     background-color: beige;
     border: 2px solid #ccc;
 }
 
 input[type="submit"],
 input[type="reset"] {
-    color: black;
+    color: antiquewhite;
     width: 220px;
-    height: 35px;
+    height: 40px;
     font-size: 16px;
-    background-color: darkgrey;
+    background-color: #333;
+    border: 2px solid #666;
+}
+
+input[type="submit"]:hover {
+    background-color: #777;
+    color: black;
+}
+
+input[type="reset"]:hover {
+    background-color: #777;
+    color: black;
+}
+
+input[type="submit"]:active {
+    background-color: #aaa;
+    color: red;
+}
+
+input[type="reset"]:active {
+    background-color: #aaa;
+    color: red;
+}
+
+.contacts {
+    padding-top: 30px;
+    font-family: neumann;
+    font-style: italic;
+    font-size: 20px;
 }
 
 footer {
+    height: 30px;
+    padding-top: 10px;
+    padding-left: 90px;
     color: aliceblue;
-    background-color: black;
+    background-color: #333;
+    text-align: left;
+}
+
+.characteristics {
+    font-family: Avara;
+    font-weight: 700;
+    width: 570px;
+    height: 400px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.characteristics td {
+    border: 2px solid #565656;
+}
+
+.upper-line {
+    height: 65px;
+}
+
+#unnecessary {
+    border: none;
+}
+
+.properties {
+    color: #444;
+    font-style: oblique;
+    font-family: Avara;
+    font-size: 26px;
+    line-height: 44px;
+    list-style-image: url("img/pentacle_PNG51.png")
+}
+
+.nimbus-table {
+    font-family: Avara;
+    text-align: center;
+    width: 350px;
+    height: 300px;
+    border-collapse: collapse;
+}
+
+.nimbus-table td {
+    border: 2px solid #565656;
+}
+
+.second-column {
+    width: 90px;
+}
+
+.detailed:first-letter {
+    color: brown;
+    font-family: neumann;
+    font-size: 45px;
+}
+
+.description:first-letter {
+    color: brown;
+    font-family: neumann;
+    font-size: 45px;
+}
+
+.product-page {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.link:hover {
+    color: darkred;
+    font-style: italic;
+}
+
+.link:active {
+    color: red;
+}
+
+.catalog-pic:hover {
+    outline: 2px solid #333;
+}
+
+form[action="#"] {
+    font-family: neumann;
+    font-style: italic;
+    font-size: 18px;
 }
