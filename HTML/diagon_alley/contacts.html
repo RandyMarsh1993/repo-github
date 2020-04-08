@@ -9,27 +9,28 @@
 <body>
     <header>
         <h1 class="name">Косой переулок</h1> </header>
-    <div class="navigation">
-        <ul class="menu">
-            <li><a href="index.html"><b>Главная</b></a></li>
-            <li><a href="catalog.html"><b>Каталог</b></a></li>
-            <li><b>Контакты</b></li>
+        <nav>
+            <ul class="menu">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="catalog.html">Каталог</a></li>
+            <li>Контакты</li>
         </ul>
-    </div>
+        </nav>
     <div class="content">
         <h2 class="heading">Напишите нам</h2>
-        <form action="#"> Ваше имя:
-            <input type="text" placeholder="Ваше имя" />
+        <form action="#">
+           <label for="my-input-name">Ваше имя:</label>
+            <input type="text" placeholder="Ваше имя" name="my-input-name" />
             <br />
-            <br /> Ваш email:
-            <input type="email" placeholder="Ваш email" />
+            <br /> <label for="my-input-email">Ваш email:</label>
+            <input type="email" placeholder="Ваш email" name="my-input-email"/>
             <br />
-            <br /> Тема сообщения:
-            <input type="text" />
+            <br /> <label for="input-theme">Тема сообщения:</label>
+            <input type="text" name="input-theme"/>
             <br />
-            <br /> Ваше сообщение:
+            <br /> <label for="your-message">Ваше сообщение:</label>
             <br />
-            <textarea name="message" id="#" cols="53" rows="5" value="Ваше сообщение"></textarea>
+            <textarea name="your-message" id="#" cols="53" rows="5" value="Ваше сообщение"></textarea>
             <br />
             <input type="submit" value="Отправить сообщение" />
             <input type="reset" value="Очистить поля" /> </form>

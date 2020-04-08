@@ -25,7 +25,7 @@ header {
     display: inline;
     padding-left: 30px;
     padding-right: 30px;
-    border: 1px solid #666;
+    border: 1px solid floralwhite;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     border-top-left-radius: 10px;
@@ -33,8 +33,14 @@ header {
     background-color: #333;
 }
 
+nav {
+    padding-left: 40px;
+    cursor: pointer;
+}
+
 .navigation {
     padding-left: 40px;
+    cursor: pointer;
 }
 
 .menu li,
@@ -48,15 +54,18 @@ header {
     text-decoration: none;
     list-style-type: none;
     text-transform: uppercase;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .menu li a:hover {
-    color: brown;
+    color: black;
+    transition: all 0.3s ease-in-out;
 }
 
 .menu li:hover {
-    color: brown;
+    color: black;
+    background-color: floralwhite;
+    transition: all 0.2s ease-in-out;
 }
 
 .menu li a:active {
@@ -83,12 +92,13 @@ header {
 }
 
 .product {
+    padding-top: 30px;
     padding-left: 50px;
     padding-bottom: 50px;
     color: black;
     font-size: 45px;
-    font-family: Avara;
-    font-weight: 400;
+    font-family: neumann;
+    font-weight: 600;
 }
 
 .main {
@@ -97,7 +107,6 @@ header {
     line-height: 50px;
     padding-top: 40px;
     font-family: neumann;
-    font-style: oblique
 }
 
 .heading {
@@ -106,23 +115,20 @@ header {
     padding-left: 40px;
     color: black;
     font-family: neumann;
-    font-style: italic;
     font-size: 38px;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .description {
     color: black;
     font-family: Avara;
     font-size: 26px;
-    font-style: italic;
     line-height: 36px;
 }
 
 .detailed {
     color: #484343;
     font-family: Avara;
-    font-style: italic;
     font-size: 26px;
     font-weight: 400;
     line-height: 36px;
@@ -135,6 +141,7 @@ header {
     font-family: neumann;
     font-size: 25px;
     padding-left: 30px;
+    font-weight: 500;
 }
 
 img[class="picture"] {
@@ -143,6 +150,7 @@ img[class="picture"] {
 
 img[class="picture"]:hover {
     outline: none;
+    transition: all 0.3s ease-in-out;
 }
 
 input[type="text"],
@@ -157,18 +165,16 @@ input[type="email"] {
 input[type="text"],
 textarea {
     font-family: neumann;
-    font-style: italic;
     text-transform: capitalize;
-    color: brown;
+    color: black;
 }
 
 input[type="email"] {
     font-family: neumann;
-    font-style: italic;
 }
 
 input[type="email"]:focus {
-    color: antiquewhite;
+    color: white;
     background-color: #555;
 }
 
@@ -180,7 +186,8 @@ textarea {
 
 input[type="submit"],
 input[type="reset"] {
-    color: antiquewhite;
+    font-family: neumann;
+    color: white;
     width: 220px;
     height: 40px;
     font-size: 16px;
@@ -189,29 +196,28 @@ input[type="reset"] {
 }
 
 input[type="submit"]:hover {
-    background-color: #777;
+    background-color: floralwhite;
     color: black;
 }
 
 input[type="reset"]:hover {
-    background-color: #777;
+    background-color: floralwhite;
     color: black;
 }
 
 input[type="submit"]:active {
-    background-color: #aaa;
+    background-color: floralwhite;
     color: red;
 }
 
 input[type="reset"]:active {
-    background-color: #aaa;
+    background-color: floralwhite;
     color: red;
 }
 
 .contacts {
     padding-top: 30px;
     font-family: neumann;
-    font-style: italic;
     font-size: 20px;
 }
 
@@ -247,7 +253,6 @@ footer {
 
 .properties {
     color: #444;
-    font-style: oblique;
     font-family: Avara;
     font-size: 26px;
     line-height: 44px;
@@ -288,8 +293,9 @@ footer {
 }
 
 .link:hover {
-    color: darkred;
-    font-style: italic;
+    color: dimgrey;
+    text-decoration: underline;
+    transition: all 0.2s ease-in-out;
 }
 
 .link:active {
@@ -302,6 +308,5 @@ footer {
 
 form[action="#"] {
     font-family: neumann;
-    font-style: italic;
     font-size: 18px;
 }
