@@ -4,50 +4,69 @@
 <head>
     <meta charset="UTF-8">
     <title>Контакты</title>
-    <link rel="stylesheet" href="style.css"> </head>
+    <link rel="stylesheet" href="style.css">
+</head>
 
 <body>
-    <header>
-        <h1 class="name">Косой переулок</h1> </header>
-    <nav>
-        <ul class="menu">
-            <li><a href="index.html">Главная</a></li>
-            <li><a href="catalog.html">Каталог</a></li>
-            <li>Контакты</li>
-        </ul>
-    </nav>
-    <div class="content">
-        <h2 class="heading">Напишите нам</h2>
-        <form action="#">
-            <label for="my-input-name">Ваше имя:</label>
-            <input type="text" placeholder="Ваше имя" name="my-input-name" />
-            <br />
-            <br />
-            <label for="my-input-email">Ваш email:</label>
-            <input type="email" placeholder="Ваш email" name="my-input-email" />
-            <br />
-            <br />
-            <label for="input-theme">Тема сообщения:</label>
-            <input type="text" name="input-theme" />
-            <br />
-            <br />
-            <label for="your-message">Ваше сообщение:</label>
-            <br />
-            <textarea name="your-message" id="#" cols="53" rows="5" value="Ваше сообщение"></textarea>
-            <br />
-            <input type="submit" value="Отправить сообщение" />
-            <input type="reset" value="Очистить поля" /> </form>
-        <div class="contacts">
-            <h2 class="heading">Контакты</h2>
-            <ul>
-                <li>Наш номер: 89115123248&nbsp;&mdash; для связи достаточно сказать номер вслух и&nbsp;бросить в&nbsp;камин щепотку пороха</li>
-                <li>Email&nbsp;&mdash; dturanin@mail.ru</li>
-                <li>Адрес: Лондон, Чаринг-Кросс-роуд, д.48. Вход через паб &quot;Дырявый котёл&quot;</li>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.0632080586493!2d-0.13039137274969947!3d51.51205636044303!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604cd9993ed4b%3A0x80fb8efd0e8677dc!2zNDggQ2hhcmluZyBDcm9zcyBSZCwgQ292ZW50IEdhcmRlbiwgTG9uZG9uIFdDMkggMEJTLCDQktC10LvQuNC60L7QsdGA0LjRgtCw0L3QuNGP!5e0!3m2!1sru!2sru!4v1586026683469!5m2!1sru!2sru" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-            </ul>
+    <div class="container">
+        <header>
+            <div class="logo"><img src="img/owl.png" alt="owl" width="210"></div>
+            <h1 class="name">Косой переулок</h1>
+            <nav>
+                <ul class="menu">
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="catalog.html">Каталог</a>
+                        <ul class="catalog-menu">
+                            <li>
+                                <a href="catalog/carpet_plane.html">Ковёр-самолёт</a>
+                            </li>
+                            <li>
+                                <a href="catalog/nimbus.html">Нимбус 2000</a>
+                            </li>
+                            <li>
+                                <a href="catalog/hat-invisibility.html">Шляпа-невидимка</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>Контакты</li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="content">
+            <h2 class="heading">Напишите нам</h2>
+            <form action="#">
+                <label for="my-input-name">Ваше имя:</label>
+                <input type="text" placeholder="Ваше имя" name="my-input-name" />
+                <br />
+                <br />
+                <label for="my-input-email">Ваш email:</label>
+                <input type="email" placeholder="Ваш email" name="my-input-email" />
+                <br />
+                <br />
+                <label for="input-theme">Тема сообщения:</label>
+                <input type="text" name="input-theme" />
+                <br />
+                <br />
+                <label for="your-message">Ваше сообщение:</label>
+                <br />
+                <textarea name="your-message" id="#" cols="53" rows="5" value="Ваше сообщение"></textarea>
+                <br />
+                <input type="submit" value="Отправить сообщение" />
+                <input type="reset" value="Очистить поля" /> </form>
+            <div class="contacts">
+                <h2 class="heading">Контакты</h2>
+                <ul>
+                    <li>Наш номер: 89115123248&nbsp;&mdash; для связи достаточно сказать номер вслух и&nbsp;бросить в&nbsp;камин щепотку пороха</li>
+                    <li>Email&nbsp;&mdash; dturanin@mail.ru</li>
+                    <li>Адрес: Лондон, Чаринг-Кросс-роуд, д.48. Вход через паб &quot;Дырявый котёл&quot;</li>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.0632080586493!2d-0.13039137274969947!3d51.51205636044303!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604cd9993ed4b%3A0x80fb8efd0e8677dc!2zNDggQ2hhcmluZyBDcm9zcyBSZCwgQ292ZW50IEdhcmRlbiwgTG9uZG9uIFdDMkggMEJTLCDQktC10LvQuNC60L7QsdGA0LjRgtCw0L3QuNGP!5e0!3m2!1sru!2sru!4v1586026683469!5m2!1sru!2sru" width="100%" height="374" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </ul>
+            </div>
         </div>
+        <footer> &copy;Все права защищены </footer>
     </div>
-    <footer> &copy;Все права защищены </footer>
+
 </body>
 
 </html>
